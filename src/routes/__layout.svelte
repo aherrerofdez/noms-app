@@ -45,7 +45,7 @@
 <div>
     <nav>
         <a href="/" on:click={() => (menu = 1)}>
-            {#if menu === 1}
+            {#if menu == 1}
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
                 <path fill="#A2AAAE" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
              </svg>
@@ -57,7 +57,7 @@
             <span> Home </span>
         </a>
         <a href="/search" on:click={() => (menu = 2)}>
-            {#if menu === 2}
+            {#if menu == 2}
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
                 <path fill="#A2AAAE" d="M9.5,3C13.1,3,16,5.9,16,9.5c0,1.6-0.6,3.1-1.6,4.2l0.3,0.3h0.8l5,5L19,20.5l-5-5v-0.8l-0.3-0.3c-1.1,1-2.6,1.6-4.2,1.6
                     C5.9,16,3,13.1,3,9.5S5.9,3,9.5,3 M9.5,5C7,5,7.1,8.5,5,9.5c-2.3,1,2-5.2,4.5-5.2s6.7,6.4,4.5,5.2C11.4,8.1,12,5,9.5,5z"/>
@@ -70,7 +70,7 @@
             <span> Search </span>
         </a>
         <a href="/series" on:click={() => (menu = 3)}>
-            {#if menu === 3}
+            {#if menu == 3}
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 206.78 222.14">
                 <style type="text/css">.main-color{fill: #a2aaae;} .white{fill: #fff;}</style>
                 <g>
@@ -104,7 +104,7 @@
             <span> Series </span>
         </a>
         <a href="/bundles" on:click={() => (menu = 4)}>
-            {#if menu === 4}
+            {#if menu == 4}
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
                 <path fill="#A2AAAE" d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
             </svg>
@@ -116,7 +116,7 @@
             <span> Bundles</span>
         </a>
         <a href="/info" on:click={() => (menu = 5)}>
-            {#if menu === 5}
+            {#if menu == 5}
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24">
                 <path fill="#A2AAAE" d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
              </svg>

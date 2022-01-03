@@ -1,5 +1,8 @@
 <script>
+    import Layout from './__layout.svelte'
     import Recipes from './recipes.svelte'
+    
+    let menu = 2;
 
     let ingredient = "";
     let search_query = [];
@@ -244,7 +247,6 @@
                 return [];
         }
     }
-    
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -273,6 +275,8 @@
     }
 
 </style>
+
+<Layout menu={menu} />
 
 <input type="text" placeholder="search by ingredient" bind:value={ingredient} on:input={() => updateCurrent(ingredient)}>
 

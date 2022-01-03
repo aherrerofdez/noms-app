@@ -1,4 +1,8 @@
 <script>
+	import Layout from './__layout.svelte'
+
+	let menu = 4;
+
 	let bundles = ['/content/bundles/blue-bundle.jpg',
 		           '/content/bundles/green-bundle.jpg',
 		           '/content/bundles/red-bundle.jpg']
@@ -33,6 +37,8 @@
 	}
 
 </style>
+
+<Layout menu={menu} />
 
 <div class="slider">
     {#each bundles as bundle}

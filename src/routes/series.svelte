@@ -1,3 +1,9 @@
+<script>
+    import Layout from './__layout.svelte'
+
+    let menu = 3;
+</script>
+
 <style>
     div {
         display: inline-block;
@@ -22,6 +28,8 @@
     }
 
 </style>
+
+<Layout menu={menu} />
 
 <div>
     <a href="/series/batch">

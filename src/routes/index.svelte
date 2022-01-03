@@ -1,4 +1,8 @@
 <script>
+    import Layout from './__layout.svelte'
+
+    let menu = 1;
+
     let inspo = ['/content/inspo/Pasta-Bolognese.png',
 		         '/content/inspo/Green-Bruschetta-V.png',
 		         '/content/inspo/Caesar-Salad.png',
@@ -50,6 +54,8 @@
     }
 
 </style>
+
+<Layout menu={menu} />
 
 <div class="slider">
     {#each inspo as i}

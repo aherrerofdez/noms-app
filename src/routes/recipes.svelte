@@ -1,10 +1,5 @@
 <script>
-    /*var recipes_path = ['/content/recipes/caesar-salad-v.jpg',
-                        '/content/recipes/caesar-salad.jpg',
-                        '/content/bundles/green-bundle.jpg',
-                        '/content/bundles/red-bundle.jpg']*/
     export let recipes_path;
-
 </script>
 
 <style>
